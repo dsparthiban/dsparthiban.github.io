@@ -511,7 +511,7 @@
             opacity: 0;
             transform: translateY(30px);
             animation: fadeInUp 1s ease 0.6s forwards;
-            color: rgba(255, 255, 255, 0.9);
+            color: var(--text-primary);
             font-weight: 400;
             max-width: 600px;
             margin-left: auto;
@@ -521,8 +521,8 @@
         .cta-button {
             display: inline-block;
             padding: 1.2rem 3rem;
-            background: rgba(255, 255, 255, 0.2);
-            color: var(--text-light);
+            background: var(--gradient-primary);
+            color: var(--text-primary);
             text-decoration: none;
             border-radius: 50px;
             font-weight: 600;
@@ -616,7 +616,7 @@
             position: absolute;
             width: 60px;
             height: 4px;
-            background: var(--gradient-primary);
+            background: var(--text-primary);
             bottom: -20px;
             left: 50%;
             transform: translateX(-50%);
@@ -625,7 +625,8 @@
 
         /* About Section */
         .about {
-            background: var(--bg-secondary);
+            /* background: var(--bg-secondary); */
+            background: vat(--gradient-elegant);
             position: relative;
         }
 
@@ -727,7 +728,9 @@
 
         /* Portfolio Section */
         .portfolio {
-            background: var(--bg-primary);
+            /* background: var(--bg-primary); */
+            background: vat(--gradient-elegant);
+
         }
 
         .portfolio-grid {
@@ -1009,7 +1012,7 @@
         }
 
         .contact .section-title {
-            color: var(--text-light);
+            color: var(--text-primary);
             background: linear-gradient(135deg, #ffffff 0%, #e2e8f0 100%);
             -webkit-background-clip: text;
             background-clip: text;
@@ -1036,17 +1039,17 @@
 
         .form-group label {
             font-weight: 500;
-            color: rgba(255, 255, 255, 0.9);
+            color: var(--text-primary);
             font-size: 0.9rem;
         }
 
         .form-group input,
         .form-group textarea {
             padding: 1.2rem;
-            border: 1px solid rgba(255, 255, 255, 0.2);
+            border: 1px solid rgba(100, 100, 100, 0.2);
             border-radius: 15px;
             background: rgba(255, 255, 255, 0.08);
-            color: var(--text-light);
+            color: var(--text-primary);
             font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif;
             font-size: 1rem;
             font-weight: 400;
