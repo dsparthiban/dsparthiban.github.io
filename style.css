@@ -183,7 +183,7 @@
             font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif;
             font-size: 1.75rem;
             font-weight: 700;
-            background: var(--gradient-elegant);
+            background: var(--text-primary);
             -webkit-background-clip: text;
             background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -473,7 +473,8 @@
 
         .hero-content {
             text-align: center;
-            color: var(--text-light);
+            /* color: var(--text-light); */
+            color: var(--text-primary)
             z-index: 2;
             position: relative;
             max-width: 900px;
