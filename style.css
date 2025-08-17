@@ -603,7 +603,8 @@
             font-size: 3.5rem;
             font-weight: 600;
             margin-bottom: 4rem;
-            background: var(--gradient-elegant);
+            /* background: var(--gradient-elegant); */
+            background: var(--text-primary);
             -webkit-background-clip: text;
             background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -1068,7 +1069,7 @@
 
         .form-group input::placeholder,
         .form-group textarea::placeholder {
-            color: rgba(255, 255, 255, 0.5);
+            color: var(--text-primary);
         }
 
         .submit-btn {
