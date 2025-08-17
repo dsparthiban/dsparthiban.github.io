@@ -1023,6 +1023,9 @@
             -webkit-text-fill-color: var(--text-primary);
         }
 
+        .contact .fade-in {
+            color: #000;
+        }
         .contact-form {
             display: grid;
             gap: 2rem;
