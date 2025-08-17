@@ -607,7 +607,8 @@
             background: var(--text-primary);
             -webkit-background-clip: text;
             background-clip: text;
-            -webkit-text-fill-color: transparent;
+            /* -webkit-text-fill-color: transparent; */
+            -webkit-text-fill-color: var(--text-primary);
             letter-spacing: -1px;
             position: relative;
         }
