@@ -130,7 +130,7 @@
             --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             --gradient-secondary: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
             --gradient-tertiary: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
-            --gradient-elegant: linear-gradient(RGB(240,240,240),RGB(240,240,240)
+            --gradient-elegant: linear-gradient(to bottom, rgb(240,240,240) 0%, rgb(250,250,250) 100%);
             /* --gradient-elegant: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%); */
 /*             --gradient-elegant: linear-gradient(to top, #30cfd0 0%, #330867 100%); */
             --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
