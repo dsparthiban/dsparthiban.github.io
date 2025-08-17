@@ -1014,7 +1014,8 @@
 
         .contact .section-title {
             color: var(--text-primary);
-            background: linear-gradient(135deg, #ffffff 0%, #e2e8f0 100%);
+            /* background: linear-gradient(135deg, #ffffff 0%, #e2e8f0 100%); */
+            background: var(--text-primary);
             -webkit-background-clip: text;
             background-clip: text;
             -webkit-text-fill-color: transparent;
